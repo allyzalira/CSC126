@@ -1,0 +1,7 @@
+# OpenCV 4.x is required (OpenCV 5.x changed the CascadeClassifier API).
+# The CONTRIB build is needed for cv2.face (LBPH face recognition).
+# If opencv-python is already installed:  pip uninstall opencv-python
+opencv-contrib-python>=4.8,<5
+numpy>=1.24
+Pillow>=10.0
+# Tkinter and sqlite3 ship with Python (Linux: sudo apt install python3-tk)
